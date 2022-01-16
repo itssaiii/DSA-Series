@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-
+    // list and queues
     //QUEUE : FIFO OPERATION
 
     // TIME COMPLEXITY : ALL BELOW OPERATIONS ARE O(1)
