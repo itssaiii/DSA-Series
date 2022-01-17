@@ -2,6 +2,9 @@
 using namespace std;
 void Process(string str);
 int main(){
+
+    // INSTEAD OF isPunc method
+
     string str;
     cout<<"enter the string"<<"\n";
     getline(cin,str);
