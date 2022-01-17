@@ -37,5 +37,10 @@ int main(){
     }
     cout<<"After deleting all elements : "<<st.size()<<endl;
     
+    // if stack is empty and we do top operation
+    st.push(11);
+    st.top(); // WILL ALWAYS GIVE AN ERROR IF STACK IS EMPTY 
+
+
     return 0;
 }
