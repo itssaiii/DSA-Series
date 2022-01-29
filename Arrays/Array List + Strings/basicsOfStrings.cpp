@@ -3,14 +3,15 @@ using namespace std;
 int main(){
     string str;
     cout<<"Enter a String"<<"\n";
-    cin>>str;
+    getline(cin,str);
 
     // CHARACTER FROM STRINGS
-    char ch;
+    char ch; 
     for(int i=0;i<str.length();i++){
         ch = str[i];
         cout<<ch<<" - ";
     }
+    
 
     // SUBSTRINGS FROM THE GIVEN SRTRING
     string sub = str.substr(2);
